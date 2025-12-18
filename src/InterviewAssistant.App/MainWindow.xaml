@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="InterviewAssistant.App.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:InterviewAssistant.App"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="InterviewAssistant.App">
+
+    <Window.SystemBackdrop>
+        <MicaBackdrop />
+    </Window.SystemBackdrop>
+
+    <Grid Background="Transparent">
+        <Border
+        x:Name="DragArea"
+        Height="40"
+        VerticalAlignment="Top"
+        Background="#22000000"/>
+
+        <TextBlock
+        Text="Overlay ready"
+        FontSize="24"
+        Foreground="White"
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center"/>
+    </Grid>
+</Window>

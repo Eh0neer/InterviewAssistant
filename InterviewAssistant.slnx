@@ -1,0 +1,23 @@
+<Solution>
+  <Configurations>
+    <Platform Name="ARM64" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/src/">
+    <Project Path="src/InterviewAssistant.AI/InterviewAssistant.AI.csproj" />
+    <Project Path="src/InterviewAssistant.App/InterviewAssistant.App.csproj">
+      <Platform Solution="*|ARM64" Project="ARM64" />
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+      <Deploy />
+    </Project>
+    <Project Path="src/InterviewAssistant.Audio/InterviewAssistant.Audio.csproj" />
+    <Project Path="src/InterviewAssistant.Core/InterviewAssistant.Core.csproj" />
+    <Project Path="src/InterviewAssistant.Shared/InterviewAssistant.Shared.csproj" />
+    <Project Path="src/InterviewAssistant.Win32/InterviewAssistant.Win32.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/InterviewAssistant.Tests/InterviewAssistant.Tests.csproj" />
+  </Folder>
+</Solution>

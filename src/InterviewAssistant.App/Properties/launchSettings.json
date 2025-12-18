@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "InterviewAssistant.App (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "InterviewAssistant.App (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
